@@ -1,12 +1,14 @@
 const { Client, EmbedBuilder, PermissionsBitField } = require("discord.js");
 module.exports = {
     name:"avatar",
-    description: 'Birinin Avatarına Bakarsın!',
-    type:1,
+    description: 'Birinin Avatarına Bakarsın!
+    interaction.reply(user.displayAvatarURL({ dynamic: true, size: 1024 }))
+        boş bırakmak için hiçbir şey yazmayın'} type:1,
     options: [
         {
             name:"user",
-            description:"Avatarına Bakmak İstediğin Kullanıcıyı Etiketle!",
+            description
+                :"Avatarına Bakmak İstediğin Kullanıcıyı Etiketle!",
             type:6,
             required:true
         },
